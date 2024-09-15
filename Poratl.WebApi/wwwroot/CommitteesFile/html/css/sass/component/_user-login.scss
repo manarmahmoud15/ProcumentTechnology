@@ -1,0 +1,364 @@
+.logedin {
+    background: #7DC1C3;
+
+    nav {
+        background: #fff;
+    }
+
+    &::after {
+        opacity: .5;
+    }
+
+    &::before {
+        opacity: .5;
+    }
+}
+
+.list-steper {
+    margin-top: 40Px;
+    padding: 20px 50px 20px 50px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 4;
+
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+
+        &::after {
+            content: " ";
+            width: 90%;
+            height: 2px;
+            display: block;
+            position: absolute;
+            background: #E0DFE5;
+            top: 26px;
+            left: 40px;
+        }
+
+        li {
+            position: relative;
+            z-index: 4;
+            width: 120px;
+            text-align: center;
+
+            div {
+                margin-left: auto;
+                margin-right: auto;
+                width: 50px;
+                height: 50px;
+                background: #F6F5FA;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 5px solid #fff;
+            }
+
+            span {
+                color: $main-color;
+                font-size: 14px
+            }
+
+            &.active {
+                div {
+                    background: $active;
+                    box-shadow: $active 0px 1px 1px, $active 0px 0px 0px 1px;
+
+                    img {
+                        filter: brightness(10.5);
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.i1::after {
+    background: linear-gradient(90deg, rgba(224, 223, 229, 1) 82%, rgba(125, 193, 195, 1) 82%) !important;
+}
+
+.i2::after {
+    background: linear-gradient(90deg, rgba(224, 223, 229, 1) 60%, rgba(125, 193, 195, 1) 60%) !important;
+}
+
+.i3::after {
+    background: linear-gradient(90deg, rgba(224, 223, 229, 1) 40%, rgba(125, 193, 195, 1) 40%) !important;
+}
+
+.i4::after {
+    background: linear-gradient(90deg, rgba(224, 223, 229, 1) 20%, rgba(125, 193, 195, 1) 20%) !important;
+}
+
+.i5::after {
+    background: linear-gradient(90deg, rgba(224, 223, 229, 1) 0%, rgba(125, 193, 195, 1) 0%) !important;
+}
+
+.body-chef {
+    margin-top: 40Px;
+    padding: 20px 50px 20px 50px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 4;
+}
+
+.chef-title {
+    margin: 20px;
+
+    h5 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: $color;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    p {
+        text-align: center;
+        color: #A29EB7;
+        font-size: 14px;
+    }
+}
+
+.list-back {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+        margin-bottom: 20px;
+        margin-left: 20px;
+        label {
+            width: 180px;
+            background-color: #F6F5FA;
+            padding: 40px 20px;
+            border-radius: 10px;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+            transition: all 0.2s;
+            input{
+                position: absolute;
+               opacity: 0;
+            }
+            span {
+                margin: auto;
+                width: 60px;
+                height: 60px;
+                display: block;
+                text-align: center;
+                line-height: 60px;
+                font-size: 30px;
+                font-weight: bold;
+                background: url('../../img/n-b.svg') no-repeat top center;
+                background-size: contain;
+                color: $main-color;
+            transition: all 0.2s;
+
+            }
+            h6{
+                text-align: center;
+                margin-top: 15px;
+                font-weight: bold;
+                color: $main-color;
+                font-size: 15px;
+                transition: all 0.2s;
+
+
+            }
+
+        }
+        &.active{
+          label{
+            background: $main-color;
+            span{
+                color: #fff;
+            }
+            h6{
+                color: #fff;
+            }
+            &::after{
+                content: " ";
+                width: 20px;
+                height: 20px;
+                display: block;
+                background: #fff;
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background: url('../../img/tick-b.svg') no-repeat top center;
+                background-size: contain;
+
+            }
+          }
+        }
+    }
+
+
+}
+.sub-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .a-back{
+        display: flex;
+        align-items: center;
+        img{
+            margin-left: 5px;
+        }
+        span{
+            color:$active;
+        }
+    }
+    .a-next{
+        border: 1px solid #554E84;
+        background: #554E84;
+        color: #fff;
+        padding: 8px 35px;
+        border-radius:10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+}
+.list-meal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:40px;
+    &>li.active{
+        position: relative;
+        .l-meal-head{
+            background: #C6C3D7;
+        }
+        .l-meal-body{
+            // background: $main-color;
+        }
+        .l-meal{
+            background: $main-color;
+        }
+        .meal-price{
+            h4{
+                color: #fff;
+            }
+            span{
+                color: #fff;
+            }
+        }
+        ul{
+            li{
+                color: #fff;
+                &::after{
+                    background: url(../../img/tick-w.svg) no-repeat top center;
+                    background-size: contain;
+               
+            }
+
+        }
+    }
+    &::before{
+        content: " ";
+        width: 20px;
+        height: 20px;
+        display: block;
+        background: #fff;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: url('../../img/tick-b.svg') no-repeat top center;
+        background-size: contain;
+    
+    }
+}
+
+}
+.l-meal{
+    transform: all .2s;
+    cursor: pointer;
+    input{
+        position: absolute;
+        opacity:0;
+        pointer-events: none;
+    }
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+   
+    margin-left: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    width: 200px;
+    .l-meal-head{
+        background: #F6F5FA;
+        border-radius: 10px;
+        padding:20px;
+        transform: all .2s;
+
+        img{
+            margin: auto;
+            width: 130px !important;
+            height: 130px !important;
+            object-fit: contain;
+            display:flex;
+
+        }
+        
+    }
+    .l-meal-body{
+        padding-top:10px 0px 0 0;
+        min-height: 260px;
+        .meal-price{
+            margin: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h4{
+                font-weight: bold;
+                color: $color;
+                font-size:35px;
+        transform: all .2s;
+
+            }
+            span{
+                margin: 0 5px;
+                color: $active;
+                font-size:20px;
+                font-weight: bold;
+        transform: all .2s;
+                
+            }
+        }
+        .pak{
+            border-radius: 30px;
+        }
+        ul{
+           padding-right: 40px;
+            margin: 20px auto;
+            margin-bottom:0;
+            text-align: start;
+            li{
+                transform: all .2s;
+     
+                position: relative;
+                font-size:14px;
+                margin-bottom: 12px;
+               
+                &::after{
+                    position: absolute;
+                    content: " ";
+                    background: url(../../img/tick.svg) no-repeat top center;
+                    background-size: contain;
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: -26px;
+    
+                }
+            }
+        }
+    }
+    
+}

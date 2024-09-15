@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Poratl.WebApi.props" />
+</Project>

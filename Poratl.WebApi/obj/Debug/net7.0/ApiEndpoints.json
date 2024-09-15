@@ -1,0 +1,1303 @@
+[
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "Models.ViewModel.Category.LoginParamter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientController",
+    "Method": "Add",
+    "RelativePath": "api/v1/Client",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Client.ClientVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Client/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/Client/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Client/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Client.ClientFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Client/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Client/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Client.ClientVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientOrderController",
+    "Method": "Add",
+    "RelativePath": "api/v1/ClientOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.ClientOrder.ClientOrderVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientOrderController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/ClientOrder/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientOrderController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/ClientOrder/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientOrderController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/ClientOrder/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.ClientOrder.ClientOrderFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientOrderController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/ClientOrder/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientOrderController",
+    "Method": "Update",
+    "RelativePath": "api/v1/ClientOrder/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.ClientOrder.ClientOrderVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientReviewController",
+    "Method": "Add",
+    "RelativePath": "api/v1/ClientReview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.ClientReview.ClientReviewVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientReviewController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/ClientReview/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientReviewController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/ClientReview/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientReviewController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/ClientReview/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.ClientReview.ClientReviewFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/ClientReview/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ClientReviewController",
+    "Method": "Update",
+    "RelativePath": "api/v1/ClientReview/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.ClientReview.ClientReviewVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerReviewController",
+    "Method": "Add",
+    "RelativePath": "api/v1/FreelancerReview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.FreelancerReview.FreelancerReviewVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerReviewController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/FreelancerReview/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerReviewController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/FreelancerReview/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerReviewController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/FreelancerReview/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.FreelancerReview.FreelancerReviewFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerReviewController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/FreelancerReview/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerReviewController",
+    "Method": "Update",
+    "RelativePath": "api/v1/FreelancerReview/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.FreelancerReview.FreelancerReviewVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerServiceController",
+    "Method": "Add",
+    "RelativePath": "api/v1/FreelancerService",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.FreelancerService.FreelancerServiceVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerServiceController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/FreelancerService/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerServiceController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/FreelancerService/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerServiceController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/FreelancerService/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.FreelancerService.FreelancerServiceFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerServiceController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/FreelancerService/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.FreelancerServiceController",
+    "Method": "Update",
+    "RelativePath": "api/v1/FreelancerService/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.FreelancerService.FreelancerServiceVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProfilesController",
+    "Method": "Add",
+    "RelativePath": "api/v1/Profiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Profiles.ProfilesVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProfilesController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Profiles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProfilesController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/Profiles/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProfilesController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Profiles/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Profiles.ProfilesFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProfilesController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Profiles/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProfilesController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Profiles/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Profiles.ProfilesVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProposalController",
+    "Method": "Add",
+    "RelativePath": "api/v1/Proposal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Proposal.ProposalVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProposalController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Proposal/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProposalController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/Proposal/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProposalController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Proposal/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Proposal.ProposalFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProposalController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Proposal/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.ProposalController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Proposal/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Proposal.ProposalVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.TransactionController",
+    "Method": "Add",
+    "RelativePath": "api/v1/Transaction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Transaction.TransactionVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.TransactionController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Transaction/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.TransactionController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/Transaction/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.TransactionController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Transaction/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Transaction.TransactionFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.TransactionController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Transaction/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.TransactionController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Transaction/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Transaction.TransactionVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "Add",
+    "RelativePath": "api/v1/Users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Category.UsersVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/Users/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/Users/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/Users/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Category.UsersFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/Users/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "Login",
+    "RelativePath": "api/v1/Users/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "obj",
+        "Type": "Models.ViewModel.Category.LoginParamter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersController",
+    "Method": "Update",
+    "RelativePath": "api/v1/Users/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Category.UsersVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobCategoryController",
+    "Method": "Add",
+    "RelativePath": "api/v1/UsersJobCategory",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.UsersJobCategory.UsersJobCategoryVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobCategoryController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/UsersJobCategory/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobCategoryController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/UsersJobCategory/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobCategoryController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/UsersJobCategory/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.UsersJobCategory.UsersJobCategoryFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobCategoryController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/UsersJobCategory/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobCategoryController",
+    "Method": "Update",
+    "RelativePath": "api/v1/UsersJobCategory/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.UsersJobCategory.UsersJobCategoryVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobsController",
+    "Method": "Add",
+    "RelativePath": "api/v1/UsersJobs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Category.UsersJobsVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobsController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/UsersJobs/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobsController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/UsersJobs/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobsController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/UsersJobs/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Category.UsersJobsFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobsController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/UsersJobs/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobsController",
+    "Method": "Update",
+    "RelativePath": "api/v1/UsersJobs/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Category.UsersJobsVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobStatusController",
+    "Method": "Add",
+    "RelativePath": "api/v1/UsersJobStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.UsersJobStatus.UsersJobStatusVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobStatusController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/UsersJobStatus/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobStatusController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/UsersJobStatus/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobStatusController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/UsersJobStatus/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.UsersJobStatus.UsersJobStatusFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobStatusController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/UsersJobStatus/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersJobStatusController",
+    "Method": "Update",
+    "RelativePath": "api/v1/UsersJobStatus/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.UsersJobStatus.UsersJobStatusVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersRolesController",
+    "Method": "Add",
+    "RelativePath": "api/v1/UsersRoles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Category.UsersRolesVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersRolesController",
+    "Method": "Delete",
+    "RelativePath": "api/v1/UsersRoles/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersRolesController",
+    "Method": "DeleteList",
+    "RelativePath": "api/v1/UsersRoles/DeleteList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ids",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersRolesController",
+    "Method": "GetAll",
+    "RelativePath": "api/v1/UsersRoles/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filter",
+        "Type": "Models.ViewModel.Base.BaseParam\u00601[[Models.ViewModel.Category.UsersRolesFilter, Models.ViewModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersRolesController",
+    "Method": "GetById",
+    "RelativePath": "api/v1/UsersRoles/getById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.UsersRolesController",
+    "Method": "Update",
+    "RelativePath": "api/v1/UsersRoles/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parameter",
+        "Type": "Models.ViewModel.Category.UsersRolesVm",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Poratl.WebApi.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Poratl.WebApi.WeatherForecast, Poratl.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

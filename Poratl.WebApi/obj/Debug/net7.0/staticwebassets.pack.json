@@ -1,0 +1,433 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\ActivitiesFile\\string",
+      "PackagePath": "staticwebassets\\ActivitiesFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\ActivitiesFile\\string.pdf",
+      "PackagePath": "staticwebassets\\ActivitiesFile\\string.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\all.css",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\all.css"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_color.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_color.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_general.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_general.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_home.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_home.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_inner.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_inner.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_login.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_login.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_mystyle.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_mystyle.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_owl-carousel.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_owl-carousel.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_responsive.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_responsive.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\component\\_user-login.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\component\\_user-login.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\style.css",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\style.css"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\style.css.map",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\style.css.map"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\css\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\css\\sass\\style.scss"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\img\\back.jpeg",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\img\\back.jpeg"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\img\\back.jpg",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\img\\back.jpg"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\img\\logo1.png",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\img\\logo1.png"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\img\\logo2.png",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\img\\logo2.png"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\img\\logo3.png",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\img\\logo3.png"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\img\\t-arrow.svg",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\img\\t-arrow.svg"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\all.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\all.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\main.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\main.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\js\\poper.min.js",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\js\\poper.min.js"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\login.html",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\login.html"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\thanku.html",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\thanku.html"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\html\\welcome.html",
+      "PackagePath": "staticwebassets\\CommitteesFile\\html\\welcome.html"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\string",
+      "PackagePath": "staticwebassets\\CommitteesFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\string.zip",
+      "PackagePath": "staticwebassets\\CommitteesFile\\string.zip"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\string29052023090546274",
+      "PackagePath": "staticwebassets\\CommitteesFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesFile\\string895.pdf",
+      "PackagePath": "staticwebassets\\CommitteesFile\\string895.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\ahmed.pdf",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile\\ahmed.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010600671",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010605062",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010605432",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010607300",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010609814",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010613914",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010622940",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010648667",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesOverViewFile\\string05062023010654288",
+      "PackagePath": "staticwebassets\\CommitteesOverViewFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesPresentationFile\\ahmed.pdf",
+      "PackagePath": "staticwebassets\\CommitteesPresentationFile\\ahmed.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\CommitteesPresentationFile\\ahmed03062023100618221.pdf",
+      "PackagePath": "staticwebassets\\CommitteesPresentationFile\\ahmed03062023100618221.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\PostImages\\080220221102",
+      "PackagePath": "staticwebassets\\PostImages"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\PostImages\\image1",
+      "PackagePath": "staticwebassets\\PostImages"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\PostImages\\img.jpg",
+      "PackagePath": "staticwebassets\\PostImages\\img.jpg"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\100320221103.jpg.jpg",
+      "PackagePath": "staticwebassets\\TasksFile\\100320221103.jpg.jpg"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\123456",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\12345603072022040714210",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\12345603072022040723451",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\12345603072022040745730.txt",
+      "PackagePath": "staticwebassets\\TasksFile\\12345603072022040745730.txt"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\407.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\407.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\555.jpg",
+      "PackagePath": "staticwebassets\\TasksFile\\555.jpg"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\Change.txt",
+      "PackagePath": "staticwebassets\\TasksFile\\Change.txt"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\Change04072022120702579.txt",
+      "PackagePath": "staticwebassets\\TasksFile\\Change04072022120702579.txt"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\Change04072022120730600.txt",
+      "PackagePath": "staticwebassets\\TasksFile\\Change04072022120730600.txt"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\Change04072022120730989.txt",
+      "PackagePath": "staticwebassets\\TasksFile\\Change04072022120730989.txt"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\Comparative study of the implementation of the OECD Artificial Intelligence Principles and gap analysis.xlsx",
+      "PackagePath": "staticwebassets\\TasksFile\\Comparative study of the implementation of the OECD Artificial Intelligence Principles and gap analysis.xlsx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\Comparative study of the implementation of the OECD Artificial Intelligence Principles and gap analysis11082022080824593.xlsx",
+      "PackagePath": "staticwebassets\\TasksFile\\Comparative study of the implementation of the OECD Artificial Intelligence Principles and gap analysis11082022080824593.xlsx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\DateFormate",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\DateFormate.txt",
+      "PackagePath": "staticwebassets\\TasksFile\\DateFormate.txt"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\DateFormate04072022010721483",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string00.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string00.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string025.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string025.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string02518092022040941782.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string02518092022040941782.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string066.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string066.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022020815782",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022020817637",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022020824978",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022020842107",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022030803161",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022030804839.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string15082022030804839.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022030841132.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string15082022030841132.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022030842116",
+      "PackagePath": "staticwebassets\\TasksFile"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022110816624.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string15082022110816624.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string15082022110845139.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string15082022110845139.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string16082022120818771.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string16082022120818771.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string16082022120840093.pdf",
+      "PackagePath": "staticwebassets\\TasksFile\\string16082022120840093.pdf"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string3333.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string3333.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string5.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string5.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string555.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string555.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string63.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string63.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string888.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string888.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string88818092022030913625.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string88818092022030913625.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string88818092022030920503.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string88818092022030920503.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string88818092022030928475.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string88818092022030928475.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string88818092022030933568.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string88818092022030933568.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string88818092022030945709.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string88818092022030945709.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string88818092022030951589.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string88818092022030951589.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string99.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string99.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\TasksFile\\string9918092022020942295.docx",
+      "PackagePath": "staticwebassets\\TasksFile\\string9918092022020942295.docx"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\Upload\\5cc3c895-2ec9-4a3a-99b5-852071e1cef7.png",
+      "PackagePath": "staticwebassets\\Upload\\5cc3c895-2ec9-4a3a-99b5-852071e1cef7.png"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\Upload\\6d5d2b41-5c32-44de-a1d8-a1b1a122932d.png",
+      "PackagePath": "staticwebassets\\Upload\\6d5d2b41-5c32-44de-a1d8-a1b1a122932d.png"
+    },
+    {
+      "Id": "D:\\front\\AAAAA\\Medianesta\\Medianesta\\Poratl.WebApi\\wwwroot\\Upload\\e3a6add4-1bdd-4d1e-a3f4-e35d7388fd1c.png",
+      "PackagePath": "staticwebassets\\Upload\\e3a6add4-1bdd-4d1e-a3f4-e35d7388fd1c.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Poratl.WebApi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Poratl.WebApi.props",
+      "PackagePath": "build\\Poratl.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Poratl.WebApi.props",
+      "PackagePath": "buildMultiTargeting\\Poratl.WebApi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Poratl.WebApi.props",
+      "PackagePath": "buildTransitive\\Poratl.WebApi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active" xml:space="preserve">
+    <value>نشط</value>
+  </data>
+  <data name="AddBranch" xml:space="preserve">
+    <value>اضافة فرع</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>إضافة تصنيف</value>
+  </data>
+  <data name="AddCategoryPropName" xml:space="preserve">
+    <value>اضافة اسم الخاصية للفئة</value>
+  </data>
+  <data name="AddCategoryPropType" xml:space="preserve">
+    <value>اضافة نوع خاصية الفئة</value>
+  </data>
+  <data name="AddCompany" xml:space="preserve">
+    <value>اضافة شركه</value>
+  </data>
+  <data name="AddDeliveryMethod" xml:space="preserve">
+    <value>اضافة طريقة توصيل</value>
+  </data>
+  <data name="AddGroup" xml:space="preserve">
+    <value>اضافة جروب</value>
+  </data>
+  <data name="AddOffer" xml:space="preserve">
+    <value>اضافة عرض</value>
+  </data>
+  <data name="AddOffersSub" xml:space="preserve">
+    <value>إضافة عروض فرعية</value>
+  </data>
+  <data name="AddPlans" xml:space="preserve">
+    <value>أضافة بيانات خطة</value>
+  </data>
+  <data name="AddPayment" xml:space="preserve">
+    <value>إضافة الدفع</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>العنوان</value>
+  </data>
+  <data name="AdressAr" xml:space="preserve">
+    <value>العنوان عربي</value>
+  </data>
+  <data name="AdressEn" xml:space="preserve">
+    <value>العنوان انجليزي</value>
+  </data>
+  <data name="AverageDayes" xml:space="preserve">
+    <value>متوسط الايام</value>
+  </data>
+  <data name="AveragePerOrder" xml:space="preserve">
+    <value>متوسط كل طلب</value>
+  </data>
+  <data name="AverageTimes" xml:space="preserve">
+    <value>متوسط الوقت</value>
+  </data>
+  <data name="Branch" xml:space="preserve">
+    <value>الفرع</value>
+  </data>
+  <data name="BranchDetails" xml:space="preserve">
+    <value>تفاصيل الفرع</value>
+  </data>
+  <data name="Category" xml:space="preserve">
+    <value>فئة</value>
+  </data>
+  <data name="CategoryDetails" xml:space="preserve">
+    <value>تفاصيل تصنيف</value>
+  </data>
+  <data name="CategoryPropName" xml:space="preserve">
+    <value>اسم خاصية الفئة</value>
+  </data>
+  <data name="CategoryPropNameDetails" xml:space="preserve">
+    <value>تفاصيل اسم خاصية الفئه</value>
+  </data>
+  <data name="CategoryPropTypeDetails" xml:space="preserve">
+    <value>تفاصيل نوع خاصية الفئة </value>
+  </data>
+  <data name="CategoryPropTypes" xml:space="preserve">
+    <value>نوع خاصية الفئة</value>
+  </data>
+  <data name="Code" xml:space="preserve">
+    <value>كود</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>الشركة</value>
+  </data>
+  <data name="CompanyDetails" xml:space="preserve">
+    <value>تفاصيل الشركه</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>اسم الستور</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>الدولة</value>
+  </data>
+  <data name="Currency" xml:space="preserve">
+    <value>العملة</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>التاريخ</value>
+  </data>
+  <data name="DateFrom" xml:space="preserve">
+    <value>من</value>
+  </data>
+  <data name="DateTo" xml:space="preserve">
+    <value>إلي</value>
+  </data>
+  <data name="DayesToFill" xml:space="preserve">
+    <value>ايام التوصيل</value>
+  </data>
+  <data name="DeliveryMethodDetails" xml:space="preserve">
+    <value>تفاصيل طريقة التوصيل</value>
+  </data>
+  <data name="DescAr" xml:space="preserve">
+    <value>الوصف عربي</value>
+  </data>
+  <data name="DescEn" xml:space="preserve">
+    <value>الوصف انجليزي</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>الوصف</value>
+  </data>
+  <data name="DescriptionAr" xml:space="preserve">
+    <value>الوصف عربي</value>
+  </data>
+  <data name="DescriptionEn" xml:space="preserve">
+    <value>الوصف إنجليزي</value>
+  </data>
+  <data name="Disscount" xml:space="preserve">
+    <value>الخصم</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>البريد الأليكتروني</value>
+  </data>
+  <data name="EndDate" xml:space="preserve">
+    <value>تاريخ النهايه</value>
+  </data>
+  <data name="EndDateVisalble" xml:space="preserve">
+    <value>تاريخ نهاية الظهور</value>
+  </data>
+  <data name="Experince" xml:space="preserve">
+    <value>الخبرة</value>
+  </data>
+  <data name="FaceBook" xml:space="preserve">
+    <value>فيس بوك </value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>تم الانتهاء</value>
+  </data>
+  <data name="FinishOrder" xml:space="preserve">
+    <value>انهاء الطلب</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>مجموعه</value>
+  </data>
+  <data name="GroupDetails" xml:space="preserve">
+    <value>تفاصيل المجموعه</value>
+  </data>
+  <data name="Img" xml:space="preserve">
+    <value>الصورة</value>
+  </data>
+  <data name="Instgram" xml:space="preserve">
+    <value>انستجرام</value>
+  </data>
+  <data name="IsActive" xml:space="preserve">
+    <value>فعال</value>
+  </data>
+  <data name="IsBlock" xml:space="preserve">
+    <value>إيقاف</value>
+  </data>
+  <data name="IsForAnotherUser" xml:space="preserve">
+    <value>هل لمستخدم آخر؟</value>
+  </data>
+  <data name="Link" xml:space="preserve">
+    <value>الرابط</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>الرسالة</value>
+  </data>
+  <data name="MinimumOrderValue" xml:space="preserve">
+    <value>اقل قيمة للطلب</value>
+  </data>
+  <data name="Mobile" xml:space="preserve">
+    <value>الجوال</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>الأسم </value>
+  </data>
+  <data name="NameAr" xml:space="preserve">
+    <value>الاسم عربي</value>
+  </data>
+  <data name="NameEn" xml:space="preserve">
+    <value>الاسم إنجليزي</value>
+  </data>
+  <data name="NewValue" xml:space="preserve">
+    <value>السعر داخل العرض</value>
+  </data>
+  <data name="NextStadge" xml:space="preserve">
+    <value>رقم المرحلة</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>ملاحظات</value>
+  </data>
+  <data name="Offer" xml:space="preserve">
+    <value>العرض</value>
+  </data>
+  <data name="OfferDetails" xml:space="preserve">
+    <value>تفاصيل العرض</value>
+  </data>
+  <data name="OffersSubDetails" xml:space="preserve">
+    <value>تفاصيل عرض فرعي</value>
+  </data>
+  <data name="Order" xml:space="preserve">
+    <value>الطلب</value>
+  </data>
+  <data name="OrderStadge" xml:space="preserve">
+    <value>مرحلة الطلب</value>
+  </data>
+  <data name="OrderStatus" xml:space="preserve">
+    <value>حالة الطلب</value>
+  </data>
+  <data name="OrderType" xml:space="preserve">
+    <value>نوع الطلب</value>
+  </data>
+  <data name="ParentCategory" xml:space="preserve">
+    <value>التصنيف الأعلي</value>
+  </data>
+  <data name="Password" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
+  <data name="PaymentDetails" xml:space="preserve">
+    <value>تفاصيل الدفع</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>التيليفون</value>
+  </data>
+  <data name="Pintrest" xml:space="preserve">
+    <value>بينتيريست</value>
+  </data>
+  <data name="PlansDetails" xml:space="preserve">
+    <value>تفاصيل خطة</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>الرقم البريدي</value>
+  </data>
+  <data name="Preparing_Time" xml:space="preserve">
+    <value>وقت الاعداد</value>
+  </data>
+  <data name="Price" xml:space="preserve">
+    <value>السعر</value>
+  </data>
+  <data name="priceAfterDisscount" xml:space="preserve">
+    <value>السعر بعد الخصم </value>
+  </data>
+  <data name="PriceInSubscriptionPerMonth" xml:space="preserve">
+    <value>سعر الأشتراك السنوي</value>
+  </data>
+  <data name="PriceInSubscriptionPerYear" xml:space="preserve">
+    <value>سعر الأشتراك الشهري</value>
+  </data>
+  <data name="PricePerMonth" xml:space="preserve">
+    <value>السعر الشهري</value>
+  </data>
+  <data name="PricePerYear" xml:space="preserve">
+    <value>السعر السنوي</value>
+  </data>
+  <data name="Product" xml:space="preserve">
+    <value>المنتج</value>
+  </data>
+  <data name="ProductsCount" xml:space="preserve">
+    <value>عدد الأصناف</value>
+  </data>
+  <data name="ProductsType" xml:space="preserve">
+    <value>انواع المنتجات</value>
+  </data>
+  <data name="PropName" xml:space="preserve">
+    <value>نوع الخاصية</value>
+  </data>
+  <data name="Qty" xml:space="preserve">
+    <value>الكميه</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>كمية</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>التقييم</value>
+  </data>
+  <data name="RegionType" xml:space="preserve">
+    <value>نوع المنطفة</value>
+  </data>
+  <data name="ShortDescAr" xml:space="preserve">
+    <value>وصف مختصر عربي</value>
+  </data>
+  <data name="ShortDescEn" xml:space="preserve">
+    <value>وصف مختصر انجليزي</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>تاريخ البدايه</value>
+  </data>
+  <data name="State" xml:space="preserve">
+    <value>الحالة</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>الموضوع</value>
+  </data>
+  <data name="Tax" xml:space="preserve">
+    <value>ضريبة</value>
+  </data>
+  <data name="Transit_Time" xml:space="preserve">
+    <value>وقت النقل</value>
+  </data>
+  <data name="Twitter" xml:space="preserve">
+    <value>تويتر</value>
+  </data>
+  <data name="User" xml:space="preserve">
+    <value>المستخدم</value>
+  </data>
+  <data name="Value" xml:space="preserve">
+    <value>قيمة</value>
+  </data>
+  <data name="Website" xml:space="preserve">
+    <value>الموقع الالكتروني</value>
+  </data>
+  <data name="YourPlatformType" xml:space="preserve">
+    <value>نوع المنصة الخاصة بك </value>
+  </data>
+  <data name="Youtube" xml:space="preserve">
+    <value>يوتيوب</value>
+  </data>
+  <data name="AddStocks" xml:space="preserve">
+    <value>أضافة مخزن</value>
+  </data>
+  <data name="StocksDetails" xml:space="preserve">
+    <value>تفاصيل المخزون</value>
+  </data>
+  <data name="AddUser" xml:space="preserve">
+    <value>أضافة بيانات مستخدم</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>المدينة</value>
+  </data>
+  <data name="Plan" xml:space="preserve">
+    <value>الخطة</value>
+  </data>
+  <data name="UserDetails" xml:space="preserve">
+    <value>تفاصيل بيانات مستخدم</value>
+  </data>
+  <data name="UserName" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="UserType" xml:space="preserve">
+    <value>نوع المستخدم</value>
+  </data>
+  <data name="AddProduct" xml:space="preserve">
+    <value>اضافة منتج</value>
+  </data>
+  <data name="AddProductProp" xml:space="preserve">
+    <value>اضافة خواص المنتج</value>
+  </data>
+  <data name="ProductDetails" xml:space="preserve">
+    <value>تفاصيل المنتج</value>
+  </data>
+  <data name="ProductsPropDetails" xml:space="preserve">
+    <value>تفاصيل خاصية المنتج</value>
+  </data>
+  <data name="ProductInfo" xml:space="preserve">
+    <value>بيانات المنتج الاساسية</value>
+  </data>
+  <data name="ProductsRelated" xml:space="preserve">
+    <value>منتجات ذات صلة</value>
+  </data>
+  <data name="Property" xml:space="preserve">
+    <value>خصائص</value>
+  </data>
+  <data name="CategPropType" xml:space="preserve">
+    <value>نوع الخاصيه</value>
+  </data>
+  <data name="AddStage" xml:space="preserve">
+    <value>اضافة مرحلة</value>
+  </data>
+  <data name="StageDetails" xml:space="preserve">
+    <value>تفاصيل المرحلة</value>
+  </data>
+  <data name="RolesHoldersList" xml:space="preserve">
+    <value>قائمة اصحاب الصلاحيات</value>
+  </data>
+  <data name="UserList" xml:space="preserve">
+    <value>قائمة العملاء</value>
+  </data>
+  <data name="AddsDetails" xml:space="preserve">
+    <value>تفاصيل الاعلان</value>
+  </data>
+  <data name="AddAdds" xml:space="preserve">
+    <value>اضافة اعلان</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الرئيسية</value>
+  </data>
+  <data name="OrderDetails" xml:space="preserve">
+    <value>تفاصيل الطلب</value>
+  </data>
+</root>
